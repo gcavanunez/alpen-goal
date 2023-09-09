@@ -8,7 +8,6 @@ const JWT_SECRET: string = process.env.JWT_SECRET as string;
 type ExpirationDuration = "15m" | "12h" | "1d" | "7d" | "30d";
 const JWT_EXPIRATION_DURATION: ExpirationDuration = "1d";
 
-
 export default class UserService {
 
     private userRepository: UserRepository = new UserRepository();

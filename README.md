@@ -9,33 +9,34 @@ Incrementally account for achievements to better prepare you for future promotio
 # TODO
 
 # tests
-- [] add unit tests with jest
+- [ ] add unit tests with jest
 
 ## users - registration and login
-- [] add role based auth (admin and users)
-- [] add validation for responses to server
-- [] add password security (bcrypt and salting)
-- [] look into uuid for users
-- [] consider email verification
-- [] consider http cookie for auth
-- [] cloudflare turnstile or google recaptcha and honeypot to prevent spam accounts
+- [ ] add role based auth (admin and users)
+- [ ] add validation for responses to server
+- [ ] add password security (bcrypt and salting)
+- [ ] look into uuid for users
+- [ ] consider email verification
+- [ ] consider http cookie for auth
+- [ ] cloudflare turnstile or google recaptcha and honeypot to prevent spam accounts
 
 ## app function
 
 
 ## database
-- [] consider ORM in lieu of raw SQL queries
+- [ ] consider ORM in lieu of raw SQL queries
 
 ## frontend
-- [] add react-TS/vite frontend
+- [ ] add react-TS/vite frontend
+- [ ] component lib - https://ui.shadcn.com/docs/installation/vite
 
 ## devops
-- [] dockerize and CICD
-- [] consider dockerizing with ngingx
+- [ ] dockerize and CICD
+- [ ] consider dockerizing with ngingx
 
 
 ## production considerations
-- [] backend and frontend config is in dev
+- [ ] backend and frontend config is in dev
 - docker config is in dev
 - env variables
 - load balancing
